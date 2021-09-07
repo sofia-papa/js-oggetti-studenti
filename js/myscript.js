@@ -48,3 +48,12 @@ for (let i = 0; i < studenti.length; i++){
     console.log(nomeStudente);
     console.log(cognomeStudente);
 }
+
+let nomeNuovoStudente = {
+    "nome" : prompt("inserisci il tuo nome"),
+    "cognome" : prompt("inserisci il tuo cognome"),
+    "eta" : prompt("inserisci la tua eta"),
+} 
+
+studenti.push(nomeNuovoStudente);
+console.log(studenti);
