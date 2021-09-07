@@ -18,3 +18,33 @@ for (let proprieta in studente){
     console.log(proprieta);
     console.log(studente[proprieta]);
 }
+
+let studenti = [
+    {
+        "nome" : "Beatrice",
+        "cognome" : "Gatta",
+    },
+    {
+        "nome" : "Francesca",
+        "cognome" : "Neri",
+    },
+    {
+        "nome" : "Lorenzo",
+        "cognome" : "Sambri",
+    },
+    {
+        "nome" : "Chiara",
+        "cognome" : "Pozzato",
+    },
+];
+
+for (let i = 0; i < studenti.length; i++){
+    let studentiArray = studenti[i];
+    /* console.log(studentiArray); */
+
+    let nomeStudente = studentiArray["nome"];
+    let cognomeStudente = studentiArray["cognome"];
+
+    console.log(nomeStudente);
+    console.log(cognomeStudente);
+}
