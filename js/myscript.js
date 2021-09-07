@@ -11,7 +11,7 @@
 let studente = {
     nome : "Sofia",
     cognome : "Papa",
-    eta : 26
+    eta : 24
 }
 
 for (let proprieta in studente){
